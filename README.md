@@ -1,4 +1,4 @@
-# Default constructor
+## Default constructor
 Compile flags: g++ -O2 -std=c++17 benchmark_default.cpp -o benchmark_default -lbenchmark
 
 ```text
@@ -19,7 +19,7 @@ BM_Copy      27881119 ns     27878764 ns           25
 ```
 
 
-# Custom constructor
+## Custom constructor
 Compile flags: g++ -O2 -std=c++17 benchmark_custom.cpp -o benchmark_custom -lbenchmark
 
 ```text
