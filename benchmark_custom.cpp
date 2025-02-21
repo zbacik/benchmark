@@ -20,8 +20,7 @@ struct Object
   std::array<int, N> _array {};
 };
 
-Object test;
-int var{};
+Object test{};
 
 // Simple function to benchmark
 static void BM_Copy(benchmark::State& state)
